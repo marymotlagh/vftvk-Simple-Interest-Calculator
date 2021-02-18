@@ -10,7 +10,7 @@ function compute() {
         var todayYear = todayDate.getFullYear();
         var rate = document.getElementById("rate").value;
         var years = document.getElementById("years").value;
-        var sum = (principal * rate / 100) * years;
+        var sum = ((principal * rate / 100) * years).toFixed(2);
         document.getElementById("principalVal").innerHTML = principal;
         document.getElementById("percentageVal").innerHTML = rate;
         document.getElementById("sum").innerHTML = sum;
