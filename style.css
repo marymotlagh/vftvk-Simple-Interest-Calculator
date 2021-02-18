@@ -1,4 +1,37 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+header {
+    color: gray;
+    font-size: 20px
+}
+footer {
+    padding-top: 12px
+}
+.container {
+    background-color: white;
+    border-radius: 25px;
+    width: 500px;
+    margin: auto;
+    padding:30px;
+}
+.fieldsRow {
+    margin-left: 80px;
+    white-space: nowrap;
+}
+.label {
+    width: 150px;
+    display: inline-block;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.field {
+    margin-right: 80px;
+    display: inline-block;
+}
+.ResultHigLighted{ background-color:yellow}
+.hide {display:none}
+.show{ display:block}
+.errorColor{color:red;}
